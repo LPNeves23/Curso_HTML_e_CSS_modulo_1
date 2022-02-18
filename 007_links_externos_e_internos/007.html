@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links externos e internos</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando links externos e internos</h1>
+    <h2>Link externo</h2>
+    <p>Para levar o usuário a um link externo, basta usar a tag a. Ex: <br>Conheça meu <a href="https://github.com/LPNeves23">GitHub</a>.</p>
+    <p>para que, ao clicar no link, o usuário não saia do site, você utiliza as tags target="blank" e rel="external" logo em seguida. Veja ex abaixo: <br>Conheça meu <a href="https://github.com/LPNeves23" target="blank" rel="external">GitHub</a>.</p>
+
+    <h3>Link Interno</h3>
+    <p>Para navgar por um link interno, basta usar os mesmos comandos do externo, adicinando o endereço de sua página interna ao invés do link externo. Veja exemplo abaixo: <br>Clique <a href="pag02.html" target="blank" rel="internal"><strong>AQUI</strong></a>para ir a segunda página.</p>
+
+    <h1>Links para download</h1>
+    <p>Para realizar downloads, basta você utilizar a tag <strong>a</strong> assim como nos links. e também não se esquecer de colocar a frente a tag <strong>download</strong> com o nome do arquivo e também com a tag <strong>type</strong> a frente para especificar o tipo de arquivo que será baixado. Veja o exemplo abaixo:</p>
+    <p><a href="livro/Apenas Poemas.pdf" target="blank" rel="external" download="Apenas Poemas.pdf" type="application/pdf">Baixe aqui</a> meu livro.</p>
+    <p><a href="livro/Apenas Poemas.rar" target="blank" rel="external" type="application/zip" download="Apenas Poemas.rar">Baixe aqui</a> o arquivo zip de meu livro</p>
+    <p><strong>OBS</strong>: Para descobrir o <strong>type</strong> do arquivo que será baixado, acesse o site <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="blank" rel="external"><strong>IANA</strong></a> e procure pelo formato</p>
+    
+</body>
+</html>

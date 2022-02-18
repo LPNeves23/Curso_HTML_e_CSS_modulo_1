@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: rgb(105, 106, 110);
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Precisamos adaptar nossas imagens para que ela fique em um tamanho bom para as várias formas que o usuário pode acessar.</p>
+    <p>Basicamente, precisamos de 3 imagens:</p>
+    <ul type="square">
+        <li>Grande - Para usuários que irão acessar pelo computador;</li>
+        <li>Média - Para usuários que irão acessar de tablets;</li>
+        <li>Pequena - Para usuários que irao acessar de smartphones.</li>
+    </ul>
+    <h2>Como adicionar Imagens Dinâmicas</h2>
+    <p>Para adicionar várias imagens para carregar de acordo com o tamanho da tela do usuário, usaremos as tags <strong>picture</strong> e <strong>source</strong>.</p>
+<picture>
+    <source media="(max-width: 350)" srcset="imagens/Capa_pequeno.jpeg" type="image/jpeg">
+    <source media="(max-width: 650px)" srcset="imagens/Capa_medio.jpeg" type="image/jpeg">
+    <img src="imagens/Capa_grande.jpeg" alt="">
+</picture>
+
+<p><strong>OBS:</strong> Sempre trabalhar com o tamanho máximo e sempre a imagem menor acima da maior. Olhar o código-fonte para qualquer dúvida.</p>
+<h1>Áudios</h1>
+<p>Clique <a href="pag_002.html">aqui</a> para ouvir os meus áudios</p>
+</body>
+</html>

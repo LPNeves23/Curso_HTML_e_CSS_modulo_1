@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações importantes</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formatações importantes</h1>
+    <p>Segue abaixo algumas formatações bastante usadas e importantes sempre usando a semântica: </p>
+    <ul>
+        <li ><strong>NEGRITO</strong> - strong</li>
+        <li><em>ITÁLICO</em> - em</li>
+        <li><mark>MARCA TEXTO</mark> - mark</li>
+        <li><small>TEXT PEQUENO</small> - small</li>
+        <li><del>TEXTO EXCLUÍDO</del> - del</li>
+        <li><ins>TEXTO INSERIDO</ins> - ins</li>
+        <li><q>CITAÇÃO</q> - q</li>
+    </ul>
+    <h2>Outras formatações</h2>
+    <p>Existem duas formatações que também são bastante importantes: a SUP e a SUB:</p>
+    <ul>
+        <li>A sup faz isso --> x20+x3 virar isso --> x<sup>20</sup>+x<sup>3</sup>
+        </li>
+        <li>A sub faz isso --> H2OH virar isso --> H<sub>2</sub>OH</li>
+    </ul>
+    <h3>Códigos e citações</h3>
+    <ul>
+        <li>Para deixar um texto de uma forma mais facil de ser lido, você pode usar a tag code. Veja o exemplo abaixo: <ul>
+            <li>document.getElementById('teste') --> sem o code</li>
+            <li><code>document.getElementById('teste')</code> --> com o code</li>
+        </ul></li>
+        <li>Para usar os espaços que aparecem no código fonte, você pode usar a tag pre. Veja o exemplo abaixo:
+            <ul>
+        <li><pre>
+    <code>
+        num = int(input("Digite um número"))
+            if num % 2 == 0:
+                print(f "O número {num} é par")
+            else:
+                print(f"O número {num} é Ímpar")
+            print("Fim do programa")
+    </code>
+        </pre>
+        </li>
+            </ul>
+        </li>
+    </ul>
+    <script>
+        var nome = window.prompt('Qual o seu nome?')
+        window.alert(`Bem vindo ${nome}, aqui vão algumas dicas sobre formatações.`)
+    </script>
+</body>
+</html>
